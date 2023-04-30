@@ -6,7 +6,7 @@ int main()
 	int number;
 	printf("enter a number");
 	scanf("%d",&number);
-	if((number>99)&&(number<1000))
+	if((number>99)&&(number<1000)||(number<-99)&&(number>-1000))
 	{
 	
 	printf("%d  is a three digit number",number);
